@@ -1,0 +1,42 @@
+div{
+	width: 100px;
+	height: 100px;
+	/*background-color: orange;*/
+	/*border:10px solid #f0f;*/
+	/*padding: 10px;*/
+	/*bu satir padding ve border eklendiginde kutu boyutunu artirmamasi icin yazildi*/
+	box-sizing: border-box;
+	/*float: left;*/
+	/*margin: 20px 15px 0;*/
+	margin: 0;
+	padding: 0;
+
+	
+}
+.a{
+	background-image: url(cake.jpg);
+	background-size: auto 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: local;
+	background-color: #000;
+	/*margin: auto;*/
+	/*position: absolute;*/
+	top: 50px;
+
+}
+.b{
+	background-color: red;
+	position: fixed;
+	/*left: 70px;
+	top: 50px;
+*/
+
+
+}
+
+.c{
+	background-color: #00f;
+
+
+}
